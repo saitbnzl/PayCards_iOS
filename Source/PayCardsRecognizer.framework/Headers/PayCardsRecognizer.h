@@ -4,7 +4,7 @@
 //
 //  Created by Vitaliy Kuzmenko on 12/07/2017.
 //  Copyright © 2017 Wallet One. All rights reserved.
-//
+//  Test
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -53,6 +53,8 @@ typedef NS_OPTIONS(NSUInteger, PayCardsRecognizerDataMode) {
 
 - (void)stopCamera;
 
+- (void)tapCancel:(id)sender;
+
 - (void)pauseRecognizer;
 
 - (void)resumeRecognizer;
@@ -66,5 +68,5 @@ typedef NS_OPTIONS(NSUInteger, PayCardsRecognizerDataMode) {
 @protocol PayCardsRecognizerPlatformDelegate
 
 - (void)payCardsRecognizer:(PayCardsRecognizer * _Nonnull)payCardsRecognizer didRecognize:(PayCardsRecognizerResult * _Nonnull)result;
-
+- (void)payCardsRecognizer:(PayCardsRecognizer * _Nonnull)payCardsRecognizer didCancel:(PayCardsRecognizerResult * _Nullable)result;
 @end

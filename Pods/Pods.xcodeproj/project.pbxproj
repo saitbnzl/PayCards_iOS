@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = PayCardsRecognizer;
+			productName = PayCardsRecognizer;
 		};
 /* End PBXAggregateTarget section */
 
@@ -41,11 +42,11 @@
 		462C3F66340033E520983999E4BB8436 /* Pods-PayCardsRecognizerExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayCardsRecognizerExample-frameworks.sh"; sourceTree = "<group>"; };
 		495CD6883785D5E53400E6F974190A64 /* Pods-PayCardsRecognizerExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayCardsRecognizerExample-dummy.m"; sourceTree = "<group>"; };
 		4A158CDC2BEE2A98BF60ACC4E860A8C3 /* PayCardsRecognizer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PayCardsRecognizer.xcconfig; sourceTree = "<group>"; };
-		59A8271F9DAC4F3AE52567377E3C8C89 /* Pods_PayCardsRecognizerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PayCardsRecognizerExample.framework; path = "Pods-PayCardsRecognizerExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A8271F9DAC4F3AE52567377E3C8C89 /* Pods_PayCardsRecognizerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayCardsRecognizerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6DA26C9CFFAC0690A23DE4F2BE590C /* Pods-PayCardsRecognizerExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayCardsRecognizerExample-Info.plist"; sourceTree = "<group>"; };
 		784D49F3BC4C01F620361F0955CFDE7F /* PayCardsRecognizer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PayCardsRecognizer.framework; path = Source/PayCardsRecognizer.framework; sourceTree = "<group>"; };
 		7C15BEF09A3FCEE3A5D8966C6136E11C /* Pods-PayCardsRecognizerExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayCardsRecognizerExample.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CDD77016E3C44BA532319B720B8CE7EC /* Pods-PayCardsRecognizerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayCardsRecognizerExample.debug.xcconfig"; sourceTree = "<group>"; };
 		D99BEC5987C88534360BFBE05D358792 /* Pods-PayCardsRecognizerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayCardsRecognizerExample.release.xcconfig"; sourceTree = "<group>"; };
 		DDB7781C74E6AEAA13390BAC3C4F5FC0 /* Pods-PayCardsRecognizerExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayCardsRecognizerExample-umbrella.h"; sourceTree = "<group>"; };
@@ -86,7 +87,6 @@
 				7C06053101CD9C77053D5BF6D6176CFE /* Frameworks */,
 				8BBA36873BC69E53D75F29098FFF8359 /* Support Files */,
 			);
-			name = PayCardsRecognizer;
 			path = PayCardsRecognizer;
 			sourceTree = "<group>";
 		};
@@ -311,13 +311,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -407,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;

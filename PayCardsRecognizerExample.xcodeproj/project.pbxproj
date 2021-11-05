@@ -127,7 +127,6 @@
 				795F0B771F2255F700FB95D9 /* Frameworks */,
 				795F0B781F2255F700FB95D9 /* Resources */,
 				792B084F23436941004B484C /* Embed Frameworks */,
-				025CFEE5F615C354799999F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,24 +187,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		025CFEE5F615C354799999F4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PayCardsRecognizerExample/Pods-PayCardsRecognizerExample-frameworks.sh",
-				"${PODS_ROOT}/PayCardsRecognizer/Source/PayCardsRecognizer.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayCardsRecognizer.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayCardsRecognizerExample/Pods-PayCardsRecognizerExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2535B2123F790DCC53446FB9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

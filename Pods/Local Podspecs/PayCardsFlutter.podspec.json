@@ -1,0 +1,24 @@
+{
+  "name": "PayCardsFlutter",
+  "version": "0.0.2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.md"
+  },
+  "homepage": "https://pay.cards",
+  "authors": {
+    "Sait Banazili": "saitbnzl@gmail.com"
+  },
+  "summary": "PayCards SDK instance to use in a Flutter plugin",
+  "source": {
+    "http": "file:///Users/saitbanazili/Downloads/PayCards_iOS.zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "vendored_frameworks": "Source/PayCardsRecognizer.framework",
+  "xcconfig": {
+    "VALID_ARCHS": "arm64 armv7"
+  }
+}

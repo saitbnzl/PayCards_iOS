@@ -1,16 +1,16 @@
 PODS:
-  - PayCardsRecognizer (1.1.6)
+  - PayCardsFlutter (0.0.2)
 
 DEPENDENCIES:
-  - PayCardsRecognizer
+  - PayCardsFlutter (from `/Users/saitbanazili/repos/PayCards_iOS`)
 
-SPEC REPOS:
-  trunk:
-    - PayCardsRecognizer
+EXTERNAL SOURCES:
+  PayCardsFlutter:
+    :podspec: "/Users/saitbanazili/repos/PayCards_iOS"
 
 SPEC CHECKSUMS:
-  PayCardsRecognizer: 0b4b4e4ff54cf5b2d15c65c27150497711dbaabc
+  PayCardsFlutter: 17f9572d68b06b73193b4e7a7e2a36361a2979d1
 
-PODFILE CHECKSUM: 9700518f8b89652cb77dd50b594fe8ee79706370
+PODFILE CHECKSUM: bacca17d9cb98a4078e8c079b4a20d74cf0060f2
 
-COCOAPODS: 1.8.1
+COCOAPODS: 1.10.2

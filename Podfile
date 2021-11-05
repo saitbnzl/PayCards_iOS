@@ -5,6 +5,6 @@ target 'PayCardsRecognizerExample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-	pod 'PayCardsRecognizer', :podspec => '/Users/saitbnzl/repos/PayCards_iOS'  
+	pod 'PayCardsFlutter', :podspec => '/Users/saitbanazili/repos/PayCards_iOS'  
 
 end

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'PayCardsFlutter'
-  spec.version          = '0.0.2'
+  spec.version          = '0.0.3'
   spec.license          = { type: 'MIT', file: 'LICENSE.md' }
   spec.homepage         = 'https://pay.cards'
   spec.authors          = { 'Sait Banazili' => 'saitbnzl@gmail.com' }
